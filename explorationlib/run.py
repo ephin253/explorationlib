@@ -215,6 +215,7 @@ def multi_experiment(name,
 
         # Save agent and env
         log["exp_agent"] = deepcopy(agent)
+        log["env"] = deepcopy(env)
 
         # Log agents history
         log["agent_history"] = []
